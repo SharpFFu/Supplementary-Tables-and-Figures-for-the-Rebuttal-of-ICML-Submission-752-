@@ -19,35 +19,26 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ## Supplementary Figures for the Rebuttal
 
-### Figure S1. ProcGen result (2 seeds)
-
-<h2>ProcGen result (2 seed)</h2>
-<img src="./ProcGen_result_(2seed).png" alt="ProcGen result (2 seed)" width="400">
-
+### Figure 1. ProcGen result (2 seeds)
+![Figure 1](ProcGen_result_(2seed).png)
 ---
 
-### Figure S2. ProcGen result (5 seeds)
-
-<h2>ProcGen result (5 seed)</h2>
-<img src="./ProcGen_result_(5seed).png" alt="ProcGen result (5 seed)" width="400"
+### Figure 2. ProcGen result (5 seeds)
+![Figure 2](ProcGen_result_(5seed).png)
 
 *Caption:* ProcGen evaluation with **5 seeds** on 16 tasks at 50 million steps. This figure provides the higher-confidence comparison requested in the review. FlowMAP remains competitive with Dreamer and stronger than the other RL baselines.
 
 ---
 
-### Figure S3. Sensitivity analysis for the quantile filtering ratio $\alpha$
-
-<h2>Sensitivity experiment of parameter alpha</h2>
-<img src="./Sensitivity_experiment_of_parameter_alpha.png" alt="Sensitivity experiment of parameter alpha" width="400">
+### Figure 3. Sensitivity analysis for the quantile filtering ratio $\alpha$
+![Figure 3](Sensitivity_experiment_of_parameter_alpha.png)
 
 *Caption:* Minecraft episodic return under different values of the quantile filtering ratio $\alpha$. Performance is strongest in the small-to-moderate range, with the best result observed near $\alpha=0.005$. The trend suggests that FlowMAP is not overly brittle to $\alpha$ within a reasonable operating region, while very large filtering ratios degrade performance.
 
 ---
 
 ### Figure S4. Sensitivity analysis for the temperature parameter $\beta$
-
-<h2>Sensitivity experiment of parameter belta</h2>
-<img src="./Sensitivity_experiment_of_parameter_belta.png" alt="Sensitivity experiment of parameter belta" width="400">
+![Figure 4](Sensitivity_experiment_of_parameter_belta.png)
 
 *Caption:* Minecraft episodic return under different values of the temperature parameter $\beta$. Performance is strongest around $\beta=1$, while both overly small and overly large values reduce return. This supports the claim that FlowMAP has a stable intermediate operating region for value shaping.
 
@@ -133,9 +124,7 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ---
 
-### Figure S5. Practical FlowMAP implementation
-
-<h2>Practical FlowMAP implementation</h2>
-<img src="./Algorithm.png" alt="Practical FlowMAP implementation" width="400">
+### Figure 5. Practical FlowMAP implementation
+![Figure 5](Algorithm.png)
 
 *Caption:* Expanded operational version of Algorithm 1, showing the practical implementation of meta-state construction, endpoint matching, consistency alignment, and matching cost.
